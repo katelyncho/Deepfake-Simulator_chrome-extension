@@ -1,0 +1,21 @@
+{
+  "name": "Look at the Camera and Smile!",
+  "description": "Deepfake Simulator",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": { "default_popup": "hello.html", "default_icon": "face.png" },
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["content.js"],
+    "run_at": "document_idle"
+  }],
+  "web_accessible_resources": [{
+    "resources": ["lib/vision_bundle.mjs", "wasm/*", "models/*", "images/*"],
+    "matches": ["<all_urls>"]
+  }],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+  }
+}
