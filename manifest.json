@@ -4,7 +4,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "action": { "default_popup": "hello.html", "default_icon": "face.png" },
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage", "tabs", "camera"],
   "host_permissions": ["http://*/*", "https://*/*"],
   "content_scripts": [{
     "matches": ["http://*/*", "https://*/*"],
