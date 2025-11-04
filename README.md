@@ -10,6 +10,9 @@ Did you think it looks funny? Or were you uncomfortable looking at the images? T
 ![1111](https://github.com/user-attachments/assets/f8014204-1290-483c-ad6e-1bbc30d4452b)
 
 
+https://github.com/user-attachments/assets/98ba0e79-2d2e-4c91-91c8-15144b67c694
+
+
 # Copyrights
 - the base structure of this extension is from the chrome 'hello world tutorial' 
 https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world
